@@ -1,0 +1,132 @@
+Note: Due to installation issues with Cursor AI, I switched to Antigravity and was able to complete the entire project efficiently using only four prompts.
+
+
+Prompts I used for this project.
+
+Prompt 1
+Hi coder,
+
+I need your help with 2 tasks.
+
+First, I will describe Task 1. After completing Task 1 successfully, we will move to Task 2.
+
+The task is related to web scraping, and all details are provided in the uploaded document.
+
+Your job:
+1. Read and understand all the rules and descriptions from the document.
+2. Analyze everything carefully.
+
+Once you fully understand it, I will provide sample code for Task 1, and then we will proceed.
+
+
+Prompt 2
+On this link:
+https://ekantipur.com/entertainment
+
+I am providing the HTML code of one entity.
+
+Code:
+<div class="category">
+    <div class="category-inner-wrapper">
+        <div class="category-description">
+            <h2>
+                <a href="https://ekantipur.com/entertainment/2026/03/18/a-sequel-to-malamal-weekly-is-in-the-works-after-20-years-with-a-new-director-29-14.html">
+                    २० वर्षपछि ‘मालामाल विक्ली’को सिक्वेल बन्दै, फेरिए निर्देशक
+                </a>
+            </h2>
+            <div class="author-name">
+                <p>
+                    <a href="https://ekantipur.com/author/author-12165">
+                        कान्तिपुर संवाददाता
+                    </a>
+                </p>
+            </div>
+            <p>
+                २० वर्षपछि चर्चित कमेडी फिल्म ‘मालामाल विक्ली’ को दोस्रो भाग बन्ने निश्चित भएको छ, यसपटक प्रियदर्शनले निर्देशन नगर्ने भएका छन्&nbsp;।
+            </p>
+            <div class="time-wrapper">
+                <span>2 MINS READ</span>
+            </div>
+        </div>
+        <div class="category-image">
+            <a href="https://ekantipur.com/entertainment/2026/03/18/a-sequel-to-malamal-weekly-is-in-the-works-after-20-years-with-a-new-director-29-14.html">
+                <figure>
+                    <img class="loaded"
+                         alt="A sequel to 'Malamal Weekly' is in the works after 20 years, with a new director"
+                         src="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/malamal-1832026094217-1000x0.jpg&w=701&h=0">
+                </figure>
+            </a>
+        </div>
+    </div>
+</div>
+
+Task:
+Write logic to scrape the first 5 entities from the page and print them on the console.
+
+
+Prompt 3
+Here is the code of the 3rd entity.
+
+Analyze it and modify the logic so that the image URL is fetched correctly.
+
+<div class="category">
+    <div class="date-wrapper">
+        <p translate="no">चैत्र २, २०८२</p>
+    </div>
+    <div class="category-inner-wrapper">
+        <div class="category-description">
+            <h2>
+                <a href="https://ekantipur.com/entertainment/2026/03/16/the-immigration-issue-raised-by-one-battle-after-another-09-02.html">
+                    ‘वान ब्याटल आफ्टर एनोदर’ले उठाएको आप्रवासी मुद्दा
+                </a>
+            </h2>
+            <div class="author-name">
+                <p>
+                    <a href="https://ekantipur.com/author/author-ReenaMoktan-btmhT">
+                        रीना मोक्तान
+                    </a>
+                </p>
+            </div>
+            <p>
+                ९८ औं अस्कर अवार्डमा ‘उत्कृष्ट फिल्म’सहित ६ विधामा अवार्ड जितेको ‘वान ब्याटल आफ्टर एनोदर’ले विद्रोह, साहस र संघर्षको कथा देखाउँछ&nbsp;।
+            </p>
+            <div class="time-wrapper">
+                <span>6 MINS READ</span>
+            </div>
+        </div>
+        <div class="category-image">
+            <a href="https://ekantipur.com/entertainment/2026/03/16/the-immigration-issue-raised-by-one-battle-after-another-09-02.html">
+                <figure>
+                    <img class="loaded"
+                         alt="The immigration issue raised by 'One Battle After Another'"
+                         src="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/oba-2-1632026032828-1000x0.jpg&w=701&h=0">
+                </figure>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+Prompt 4
+Now that Task 1 is completed, we will move to Task 2.
+
+Use all the instructions and rules related to Task 2 and implement the logic accordingly.
+
+Code for Task 2:
+<div class="swiper-slide c-slide swiper-slide-visible swiper-slide-active swiper-slide-fully-visible"
+     role="group"
+     aria-label="1 / 10"
+     data-swiper-slide-index="0"
+     style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1); z-index: 1;">
+    <figure>
+        <a class="loading-img"
+           href="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2022/third-party/gajab-chha-ba-821203-copy-1732026024923-1000x0.jpg&w=601&h=0"
+           data-fancybox="gallery"
+           data-thumb="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2022/third-party/gajab-chha-ba-821203-copy-1732026024923-1000x0.jpg&w=601&h=0"
+           data-type="image">
+            <img class="loaded"
+                 alt="कान्तिपुर दैनिकमा आज प्रकाशित अविनको कार्टुन"
+                 src="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2022/third-party/gajab-chha-ba-821203-copy-1732026024923-1000x0.jpg&w=601&h=0">
+        </a>
+    </figure>
+</div>
